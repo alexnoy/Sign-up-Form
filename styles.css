@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Norse';
+    src: url(Norse-Bold.otf);
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+}
+
+.background {
+    width: 40%;
+    background-image: url(olegs-jonins-N8ioxw710jE-unsplash.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Norse';
+    background-color: rgba(0, 0, 0, 50%);
+    font-size: 8rem;
+    padding: 12px;
+    position: relative;
+    top: 175px;
+}
+
+img {
+    height: 15vh;
+}
