@@ -49,3 +49,17 @@ img {
 .description, .form, .log-in {
     flex: 1;
 }
+
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 48px;
+    gap: 24px;
+    font-size: 2rem;
+    font-family:'Gill Sans', 'Gill Sans MT';
+}
+
+p {
+    max-width: 52ch;
+}
