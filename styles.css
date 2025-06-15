@@ -46,18 +46,18 @@ img {
     flex: 1;
 }
 
-.description, .form, .log-in {
+#form-description, #form-section, #account-section {
     flex: 1;
+    font-family:'Gill Sans', 'Gill Sans MT';
 }
 
-.description {
+#form-description {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 48px;
+    padding-left: 48px;
     gap: 24px;
     font-size: 2rem;
-    font-family:'Gill Sans', 'Gill Sans MT';
 }
 
 p {
