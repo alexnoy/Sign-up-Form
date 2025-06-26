@@ -21,7 +21,7 @@
             <p>You <em>know</em> you want to.</p>
         </div>
         <div id="form-section">
-            <form>
+            <form id="form" method="get">
                 <p class="header">Let's do this!</p>
                 <p>
                     <label for="fname">First Name</label>
@@ -47,10 +47,12 @@
                     <label for="confirm-pword">Confirm Password</label>
                     <input type="password" name="confirm-pword" id="confirm-pword" required/>
                 </p>
-                <button type="submit">Create Account</button>
             </form>
         </div>
         <div id="account-section">
+            <p class="button">
+                <button type="submit" form="form">Create Account</button>
+            </p>
             <p class="log-in">Already have an account? <a href="#">Log in</a></p>
         </div>
     </div>
