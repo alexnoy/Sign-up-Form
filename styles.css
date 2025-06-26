@@ -14,6 +14,7 @@
 body {
     height: 100vh;
     display: flex;
+    background-color: whitesmoke;
 }
 
 .background {
@@ -58,8 +59,62 @@ img {
     padding-left: 48px;
     gap: 24px;
     font-size: 2rem;
+    font-weight: 500;
 }
 
 p {
     max-width: 52ch;
+}
+
+#form-section {
+    background-color: #ffffff;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 20%);
+}
+
+form {
+    width: 750px;
+    height: 300px;
+    padding-left: 48px; 
+
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.header {
+    font-size: 1.7rem;
+    font-weight: 600;
+    flex: 0 0 100%;
+}
+
+form > p {
+    position: relative;
+    flex: 0 0 50%;
+}
+
+label {
+    position: absolute;
+    top: -18px;
+    font-size: 1rem;
+}
+
+input {
+    font-family: inherit;
+    font-size: 1.2rem;
+    width: 275px;
+    height: 32px;
+    padding: 4px 8px;
+    border: 2px solid #E5E7EB;
+    border-radius: 4px;
+    background-color: rgb(252, 252, 252);
+}
+
+input:invalid {
+    border: 2px solid red;
+}
+
+input:focus, input:focus-visible {
+    border: 2px solid blue;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 20%);;
+    outline: none;
 }
