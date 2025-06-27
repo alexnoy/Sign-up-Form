@@ -27,27 +27,27 @@
                 <p class="header">Let's do this!</p>
                 <p>
                     <label for="fname">First Name</label>
-                    <input type="text" name="fname" id="fname" placeholder="Thor"/>
+                    <input type="text" name="fname" id="fname" placeholder="Thor" minlength="2" maxlength="35" required/>
                 </p>
                 <p>
                     <label for="lname">Last Name</label>
-                    <input type="text" name="lname" id="lname" placeholder="Odinson"/>
+                    <input type="text" name="lname" id="lname" placeholder="Odinson" minlength="2" maxlength="35" required/>
                 </p>
                 <p>
                     <label for="email">Email</label>
-                    <input type="email" name="email" id="email" placeholder="email@email.com"/>
+                    <input type="email" name="email" id="email" placeholder="email@email.com" maxlength="70" required/>
                 </p>
                 <p>
                     <label for="phone">Phone Number</label>
-                    <input type="number" name="phone" id="phone" placeholder="111-111-1111"/>
+                    <input type="tel" name="phone" id="phone" pattern="\d{3}-\d{3}-\d{4}" placeholder="111-111-1111"/>
                 </p>
                 <p>
                     <label for="pword">Password</label>
-                    <input type="password" name="pword" id="pword" required/>
+                    <input type="password" name="pword" id="pword" minlength="8" required/>
                 </p>
                 <p>
                     <label for="confirm-pword">Confirm Password</label>
-                    <input type="password" name="confirm-pword" id="confirm-pword" required/>
+                    <input type="password" name="confirm-pword" id="confirm-pword" minlength="8" required/>
                 </p>
             </form>
         </div>
