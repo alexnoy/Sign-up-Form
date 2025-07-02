@@ -49,7 +49,7 @@ img {
 
 #form-description, #form-section, #account-section {
     flex: 1;
-    font-family:'Gill Sans', 'Gill Sans MT';
+    font-family: Roboto, sans-serif;
 }
 
 #form-description {
@@ -88,13 +88,11 @@ form {
 }
 
 form > p {
-    position: relative;
     flex: 0 0 50%;
 }
 
 label {
-    position: absolute;
-    top: -18px;
+    display: flex;
     font-size: 1rem;
 }
 
